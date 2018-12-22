@@ -1,4 +1,4 @@
-<template>
+<template lang="pug">
   <Layout>
     <div class="article">
       <h1>{{ $page.blogPost.title }}</h1>

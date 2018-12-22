@@ -1,0 +1,33 @@
+@charset "UTF-8";
+@import 'normalize.scss';
+@import 'mixins.scss';
+
+
+@import 'default.scss';
+@import 'layout.scss';
+@import 'header.scss';
+@import 'host.scss';
+
+
+
+:root {
+  --rad-strong: 'rad-strong', cursive, Helvetica, sans-serif;
+  --rad: 'rad', cursive, Helvetica, sans-serif;
+
+  --yellow: #F1C15D;
+  --black: #1d1d1d;
+
+  --teal: #03fff3;
+
+  --blue1: #5CC1C3;
+  --blue2: #1688AD;
+  --orange1: #F68344;
+  --orange2: #CC4001;
+  --dark-grey: #3D3D3D;
+  --light-bg: rgba(255, 255, 255, .2);
+
+  //grad = linear-gradient(30deg, #d2ff52 0%, green 100%);
+
+  --orangegrad: linear-gradient(270deg, var(--orange1) 0%, var(--orange2) 100%);
+  --bluegrad: linear-gradient(230deg, var(--blue1) 0%, var(--blue2) 100%);
+}

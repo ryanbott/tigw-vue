@@ -1,5 +1,7 @@
 import DefaultLayout from '~/layouts/Default.vue'
 
+import '~/style/index.scss'
+
 export default function (Vue, { head }) {
   Vue.component('Layout', DefaultLayout)
 

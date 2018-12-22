@@ -1,0 +1,57 @@
+.people {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+  flex-wrap: wrap;
+}
+
+.person {
+  background: var(--light-bg);
+  padding: 1.5rem;
+  width: 49%;
+  margin-bottom: 1rem;
+
+  @media (max-width: 800px) {
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+
+  p {
+    font-size: 1.6rem;
+    margin-bottom: 0;
+  }
+
+  h3 {
+    font-size: 2rem;
+    color: white;
+    margin: 0;
+    line-height: 1.2;
+
+    em {
+      font-size: 2rem;
+    }
+  }
+
+  a {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: var(--orange1);
+    
+  }
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 10rem;
+  float: left;
+  margin-right: 2rem;
+  border: 3px solid white;
+  /* @media (max-width: 80rem) {
+    width: 50px;
+    border-width: 1px;
+  } */
+}
+
+.link-hidden {
+  visibility: hidden;
+}

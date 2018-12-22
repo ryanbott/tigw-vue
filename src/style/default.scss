@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'rad-strong';
+  src: url('/static/fonts/Radnika-Bold.woff2') format('woff2'), url('/static/fonts/Radnika-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'rad';
+  src:  url('/static/fonts/Radnika-Light.woff2') format('woff2'),
+        url('/static/fonts/Radnika-Light.woff') format('woff');
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: 'rad';
+  color: var(--black);
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--rad-strong);
+  color: var(--black);
+  font-weight: 100;
+}
+
+li {
+  line-height: 1.7;
+}
+
+a {
+  color: var(--link);
+  text-decoration: none;
+}

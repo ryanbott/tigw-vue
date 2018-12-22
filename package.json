@@ -9,6 +9,10 @@
   "dependencies": {
     "@gridsome/source-filesystem": "^0.1.0",
     "@gridsome/transformer-remark": "0.1.0",
-    "gridsome": "^0.2.5"
+    "gridsome": "^0.2.5",
+    "node-sass": "^4.11.0",
+    "pug": "^2.0.3",
+    "pug-plain-loader": "^1.0.0",
+    "sass-loader": "^7.1.0"
   }
 }

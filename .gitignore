@@ -2,7 +2,7 @@
 .git/
 .temp/
 node_modules/
-
+dist/
 .DS_store
 *.log
 haters/
