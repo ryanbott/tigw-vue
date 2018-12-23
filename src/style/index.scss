@@ -7,12 +7,14 @@
 @import 'layout.scss';
 @import 'header.scss';
 @import 'host.scss';
+@import 'subscribe.scss';
+@import 'show-index.scss';
 
 
 
 :root {
-  --rad-strong: 'rad-strong', cursive, Helvetica, sans-serif;
-  --rad: 'rad', cursive, Helvetica, sans-serif;
+  --rad-strong: 'rad-strong', Helvetica, sans-serif;
+  --rad: 'rad', Helvetica, sans-serif;
 
   --yellow: #F1C15D;
   --black: #1d1d1d;

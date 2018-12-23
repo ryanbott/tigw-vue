@@ -30,6 +30,12 @@ h6 {
   font-weight: 100;
 }
 
+p,
+li,
+a {
+  font-family: var(--rad);
+}
+
 li {
   line-height: 1.7;
 }

@@ -1,15 +1,14 @@
 <template lang="pug">
-  <Layout class="home">
-    <ul>
-      <li v-for="{ node } in $page.allBlogPost.edges" :key="node._id">
-        <router-link :to="node.path">
-          <h2 v-html="node.title"/>
-        </router-link>
-        <span v-html="node.date"/>
-        <div v-html="node.fields.description"/>
-      </li>
-    </ul>
-  </Layout>
+  Layout.home
+    .show-index
+      ul
+        <li v-for="{ node } in $page.allBlogPost.edges" :key="node._id">
+          <router-link :to="node.path">
+            <h2 v-html="node.title"/>
+          </router-link>
+          <span v-html="node.date"/>
+          <div v-html="node.fields.description"/>
+        </li>
 </template>
 
 <page-query>
@@ -33,6 +32,15 @@
 <style lang="sass" scoped>
   .home
     max-width: 90rem;
-    background: var(--light-bg);
     margin: auto;
+
+    ul
+      padding: 2rem;
+
+      li
+        border-bottom: 1px solid var(--orange1);
+
+    h2
+      font-size: 2rem;
+      font-weight: 500;
 </style>
