@@ -1,9 +1,23 @@
 .show-index {
   background: white;
 
+  h2 {
+    margin-bottom: 1rem;
+  }
+
+  span {
+    font-size: 1.2rem;
+    color: var(--blue2);
+  }
+
+  p {
+    font-size: 1.8rem;
+  }
+
   ul {
     li {
       list-style: none;
+      padding-bottom: 1rem;
     }
   }
 }

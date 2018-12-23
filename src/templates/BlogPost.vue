@@ -38,11 +38,11 @@
   } */
 
   .article {
-    margin-top: 15px;
+    margin-top: 1.5rem;
   }
 
   .article h1 {
-    font-size: 40px;
+    font-size: 4rem;
   }
 
   .article img {
@@ -60,8 +60,8 @@
   }
 
   .article span {
-    font-size: 80%;
-    margin-bottom: 20px;
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
   }
 
   .article ol, .article ul {

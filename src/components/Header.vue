@@ -1,7 +1,9 @@
 <template lang="pug">
   <header class="header">
     <div class="header__left">
+      <a href="/">
       <g-image src="~/static/images/tigw/tigw-logo.png" width="400" class="header__logo" alt="Things I Got Wrong"/>
+      </a>
     </div>
     <div class="header__right">
       <div class="title">
@@ -35,7 +37,6 @@
         <g-image src="~/static/images/tigw/mark_400.jpg" alt="headshot of Mark Spirek" width="300" class="avatar"/>
         .host-text
           h3 Mark Spirek
-          <a target="_blank" href="https://instagram.com/mspirek" class="person__social person__social--twitter">@mspirek</a>
           p Web Developer, UI/UX expert, with a passion for product.
           <a target="_blank" href="https://markspirek.com">markspirek.com</a>
         </div>

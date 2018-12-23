@@ -1,0 +1,30 @@
+.article {
+  background-color: white;
+  max-width: 90rem;
+  margin: auto;
+  margin-bottom: 6rem;
+  padding: 2rem;
+
+  h1 {
+    font-size: 3rem;
+    font-weight: 400;
+  }
+
+  h2 {
+    font-size: 2.4rem;
+  }
+
+  span {
+    font-size: 1.6rem;
+  }
+
+  p {
+    font-size: 2rem;
+  }
+
+  ul {
+    li {
+      font-size: 1.6rem;
+    }
+  }
+}

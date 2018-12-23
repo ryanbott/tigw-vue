@@ -1,5 +1,7 @@
 .subscribe {
   width: 100%;
+  max-width: 90rem;
+  margin: auto;
 
   &__links {
     margin: 0;
@@ -31,7 +33,7 @@
       color: rgba(0,0,0,0.8);
       text-shadow: 1px 1px 0 rgba(255,255,255,0.2);
       box-shadow: inset 0 0 0 2px rgba(0,0,0,0.05);
-      font-size: 1rem;
+      font-size: 1.6rem;
       padding: 0.7rem 1rem;
       text-align: center;
       border-radius: 3px;
@@ -77,6 +79,7 @@
 
     &--itunes a {
       background: linear-gradient(to bottom, rgb(205, 102, 246) 0%, rgb(154, 61, 209) 80%, rgb(142, 52, 201) 100%);
+      color: white;
 
       &:before {
         background-image: url('../static/icons/itunes.jpg');
@@ -117,6 +120,8 @@
 
     &--pocketcasts a {
       background: linear-gradient(to bottom, rgb(242, 43, 36) 0%, rgb(215, 12, 11) 100%);
+      color: white;
+
       &:before {
         background-image: url('../static/icons/pocketcasts.jpg');
       }
@@ -133,6 +138,7 @@
 
     &--spotify a {
       background: linear-gradient(to bottom, rgb(4, 160, 59) 0%, rgb(16, 172, 71) 100%);
+      color: white;
 
       &:before {
         background-image: url('../static/icons/spotify.svg');

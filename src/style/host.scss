@@ -6,6 +6,7 @@
 }
 
 .person {
+  display: flex;
   background: var(--light-bg);
   padding: 1.5rem;
   width: 49%;
@@ -45,6 +46,7 @@
 .avatar {
   border-radius: 50%;
   width: 10rem;
+  height: 10rem;
   float: left;
   margin-right: 2rem;
   border: 3px solid white;

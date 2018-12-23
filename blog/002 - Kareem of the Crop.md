@@ -5,7 +5,6 @@ date: 1536987600000
 url: https://s3-us-west-2.amazonaws.com/anchor-audio-bank/production/2018-8-16/4616137-44100-2-def66b715e9ee.mp3
 description: "Vestibulum volutpat pretium libero. Cras id dui. Aenean ut eros et nisl sagittis vestibulum. Nullam nulla eros, ultricies sit amet, nonummy id."
 image: "https://i.imgur.com/qeKTrnD.jpg"
-slug: third
 ---
 
 In this episode of Things I Got Wrong, we play Before & After, answer some tough questions about airports, learn how there's always a sure bet for most topics in 'General Trivia', talk Harry Potter, Star Trek and more!
