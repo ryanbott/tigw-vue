@@ -4,28 +4,19 @@
   margin: auto;
 
   &__links {
-    margin: 0;
+    margin: auto;
     padding: 0;
     display: flex;
     list-style: none;
     align-items: stretch;
     flex-wrap: wrap;
     justify-content: space-between;
-
-    @media (max-width: 800px) {
-      justify-content: space-between;
-    }
+    max-width: 60rem;
   }
 
   &__link {
-    flex: 0 1 auto;
-    margin-bottom: 1rem;
-
-    @media (max-width: 60rem) {
-      flex: 1 1 auto;
-      margin-right: 1rem;
-      margin-bottom: 1rem;
-    }
+    flex: 1 1 auto;
+    margin: 0 .5rem 1rem;
 
     a {
       background: black;
